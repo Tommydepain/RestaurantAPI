@@ -1,9 +1,9 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
  
 const db = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : 'Toms2018',
+    password : 'Tommyeva2018!',
     database : 'RESTaurant_api',
     port : '3306',
 });
